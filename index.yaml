@@ -29,6 +29,21 @@ entries:
   rudderstack:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-01-14T17:39:19.542624515Z"
+    dependencies:
+    - condition: transformer.enabled
+      name: transformer
+      repository: file://../subcharts/transformer
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: c63414c48551460455af5705261258d5add3eb9cc004999bc6f81a913e845de5
+    name: rudderstack
+    type: application
+    urls:
+    - https://github.com/afranzi/rudderstack-helm/releases/download/rudderstack-0.4.10/rudderstack-0.4.10.tgz
+    version: 0.4.10
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-01-14T17:33:17.012992281Z"
     dependencies:
     - condition: transformer.enabled
